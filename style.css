@@ -1,0 +1,96 @@
+@font-face{
+    font-family: Mary;
+    src: url(./fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+body{
+    flex-direction: column;
+    position: relative;
+    top: 2%;
+    background-image: linear-gradient(to left,rgb(23, 109, 109),rgb(247, 158, 173));
+ 
+}
+#image{
+
+    margin: 0px;
+    position: absolute;
+    width: 1240px;
+}
+#stud{
+    font-family: Mary;
+    font-size: 35px;
+}
+.mid-container{
+    position: relative;
+    background-image: linear-gradient(to bottom left,rgb(69, 148, 122),rgb(247, 203, 210));
+    box-shadow:
+    black 5px 5px 10px,
+    black -5px -5px 10px;
+    left: 65%;
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 15px;
+}
+#eval{
+    text-decoration: none;
+    width: 15%;
+    color: black;
+}
+
+#button{
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 25%;
+    color: black;
+    background: rgb(107, 139, 107);
+    box-shadow:
+        black 5px 5px 10px,
+        black -5px -5px 10px;
+}
+.mid{
+    box-shadow:
+        #000000 5px 5px 10px,
+        #000000 -5px -5px 10px;
+    background-image: linear-gradient(to bottom left,rgb(69, 148, 122),rgb(247, 203, 210));
+ 
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 4.5%;
+    padding-left: 5%;
+    background-color: white;
+    width: 37%;
+    top: 15%;
+    left: 5%;
+    flex-direction: row;
+    font-family: Mary;
+}
+table{  
+    padding-left: 5%;
+
+}
+#image-eval{
+    top: 4%;
+    box-shadow:
+    #000000 5px 5px 10px,
+    #000000 -5px -5px 10px;
+    width: 75%;
+    position: absolute;
+    left: 20%;
+
+}
+#button2{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 25%;
+    color: black;
+    background: gray;
+    box-shadow:
+        #000000 5px 5px 10px,
+        #000000 -5px -5px 10px;
+}
+
+

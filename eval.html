@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Grade Evaluator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <img id="image-eval" src="./image/bg-img.png" alt="">
+    <div class="mid">
+        <h1>Student Grade Evaluation</h1>
+            <div>
+                <h2>Student Name: <input type="text" id="name" placeholder="Go, Dane"></h2>
+            </div>
+            <div>
+                <h2 >List of Subjects: </h2>
+                <div>                    
+                    <table >
+                       <tr>
+                           <th>Subjects</th>
+                           <th>Grade</th>
+                           <th>Remarks</th>
+                       </tr>
+                       <tr>
+                           <td>Math</td>
+                           <td><input type="number" id="grade1"  style="text-align: center; width:90%;"></td>
+                           <td>Evaluation</td>
+                       </tr>
+                       <tr>
+                            <td >Science</td>
+                            <td><input type="number" id="grade2"  style="text-align: center; width:90%;"></td>
+                            <td>Evaluation</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td><input type="number" id="grade3"  style="text-align: center; width:90%;"></td>
+                            <td >Evaluation</td>
+                        </tr>
+                        <tr>
+                            <td>Filipino</td>
+                            <td><input type="number" id="grade4"  style="text-align: center; width:90%;"></td>
+                            <td >Evaluation</td>
+                        </tr>
+                        <tr>
+                            <td id="PE">P.E</td>
+                            <td><input type="number" id="grade5" style="text-align: center; width:90%;"> </td>
+                            <td >Evaluation</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h1 id="rank" >Student Rank:</h1>
+                <button onclick="result()" id="button2">Evaluate</button>
+            </div>
+           
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
